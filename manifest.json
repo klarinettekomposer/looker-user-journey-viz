@@ -1,4 +1,8 @@
 {
+    "id": "looker_user_journey_viz",
+    "apiVersion": "1.0.0",
+    "name": "User Journeys",
+    "description": "Toggle between aggregated journey paths and per-touchpoint journey counts",
     "data": {
       "fields": [
         {
@@ -19,11 +23,8 @@
         "default": "aggregated",
         "values": [
           { "label": "Aggregated Paths", "value": "aggregated" },
-          { "label": "Page Counts",      "value": "pageCounts" }
+          { "label": "Page Counts",      "value": "pageCounts"   }
         ]
       }
-    },
-    "name": "User Journeys",
-    "description": "Toggle between aggregated journey paths and per-touchpoint journey counts"
+    }
   }
-  
