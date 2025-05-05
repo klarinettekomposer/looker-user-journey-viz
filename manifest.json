@@ -1,0 +1,29 @@
+{
+    "data": {
+      "fields": [
+        {
+          "name": "Paths",
+          "type": "DIMENSION",
+          "semanticType": "TEXT",
+          "label": "Raw Paths"
+        }
+      ],
+      "minDimensions": 1,
+      "maxDimensions": 1
+    },
+    "options": {
+      "viewType": {
+        "type": "STRING",
+        "label": "Visualization Type",
+        "display": "SELECT",
+        "default": "aggregated",
+        "values": [
+          { "label": "Aggregated Paths", "value": "aggregated" },
+          { "label": "Page Counts",      "value": "pageCounts" }
+        ]
+      }
+    },
+    "name": "User Journeys",
+    "description": "Toggle between aggregated journey paths and per-touchpoint journey counts"
+  }
+  
